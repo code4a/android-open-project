@@ -158,6 +158,12 @@ Demo Apk: https://play.google.com/store/apps/details?id=com.jpardogo.android.lis
 Renderings: ![Renderings](https://raw.github.com/jpardogo/ListBuddies/master/art/screenshot_listbuddies_2.png)  
 <a href="https://github.com/Trinea/android-open-project/edit/master/English%20Version/README.md#include" title="Back to directory" style="width:100%"><img src="http://farm4.staticflickr.com/3737/12167413134_edcff68e22_o.png" align="right"/></a>     
 
+1. RecyclerItemDecoration  
+RecyclerItemDecoration allows you to draw divider between items in recyclerview with multiple ViewType without considering items' positions!
+You don't need to think about items' position! You need to care about their ViewType!!  
+Project Address: https://github.com/magiepooh/RecyclerItemDecoration  
+Renderings: ![Renderings:](https://raw.githubusercontent.com/magiepooh/RecyclerItemDecoration/master/art/demo_vertical.gif) ![Renderings:](https://raw.githubusercontent.com/magiepooh/RecyclerItemDecoration/master/art/demo_horizontal.gif)
+
 #### 2. ActionBar  
 1. ActionBarSherlock  
 Action bar implementation which uses the native action bar on Android 4.0+ and a custom implementation on pre-4.0 through a single API and theme.   
@@ -1243,6 +1249,10 @@ Gesture detector framework for multitouch handling on Android
 Project Address: https://github.com/Almeros/android-gesture-detectors  
 <a href="https://github.com/Trinea/android-open-project/edit/master/English%20Version/README.md#include" title="Back to directory" style="width:100%"><img src="http://farm4.staticflickr.com/3737/12167413134_edcff68e22_o.png" align="right"/></a>  
 
+1. CacheUtilsLibrary  
+This is a simple Android utils library to write any type of data into cache files and then read them later, using Gson to serialize and deserialize these data.  
+Project Address: https://github.com/westlinkin/CacheUtilsLibrary  
+
 ## 3. Excellent projects  
 Linux  
 Project Address: https://github.com/torvalds/linux  
@@ -1308,6 +1318,12 @@ Demo Apk: https://play.google.com/store/apps/details?id=com.todotxt.todotxttouch
 Muzei Live Wallpaper for Android  
 Project Address: https://github.com/romannurik/muzei  
 Demo Apk: https://play.google.com/store/apps/details?id=net.nurik.roman.muzei  
+
+(14) Etar Calendar  
+Etar is an OpenSource material designed calendar  
+Project Address: https://github.com/xsoh/Etar-Calendar  
+Demo Apk: https://play.google.com/store/apps/details?id=ws.xsoh.etar  
+Renderings: ![Etar Calendar](https://raw.githubusercontent.com/xsoh/Etar-Calendar/materialdesign/assets/_pre_prod/publish/v1.0/animation.gif)  
 <a href="https://github.com/Trinea/android-open-project/edit/master/English%20Version/README.md#include" title="Back to directory" style="width:100%"><img src="http://farm4.staticflickr.com/3737/12167413134_edcff68e22_o.png" align="right"/></a>
 
 ## 4: Development and testing tools  

@@ -711,6 +711,12 @@ A 2d metaball loading
 效果图：![Renderings](https://github.com/dodola/MetaballLoading/blob/master/metaball.gif) 
 效果图：![Renderings](https://github.com/dodola/MetaballLoading/blob/master/metaball2.gif) 
 
+1. SectorProgressView  
+一个圆形的进度显示控件，用圆中扇形的角度大小来表示进度信息
+项目地址：https://github.com/timqi/SectorProgressView
+Demo：[apk download](https://github.com/timqi/SectorProgressView/raw/master/art/SectorProgressView-V1.0-Example.apk) 
+效果图：![SectorProgressView](https://github.com/timqi/SectorProgressView/blob/master/art/sample.gif) 
+
 #### 八、TextView
 包括 TextView 及所有继承自 TextView 控件，如 EditText、Button、RadioButton  
 
@@ -956,6 +962,11 @@ Demo 地址：https://play.google.com/store/apps/details?id=com.doomonafireball.
 #### 十一、TipView
 包括 Toast、角标、UndoBar 等提示性控件  
 
+1. SVProgressHUD 
+SVProgressHUD For Android 精仿iOS的提示库 SVProgressHUD，api也几乎一样。  
+项目地址：https://github.com/saiwu-bigkoo/Android-SVProgressHUD  
+效果图：![Renderings](https://github.com/saiwu-bigkoo/Android-SVProgressHUD/raw/master/preview/svprogresshuddemo.gif)  
+
 1. Crouton  
 丰富样式的 Toast，允许 alert、comfirm、info 样式及点击消失样式，允许设置 Toast 显示时间，允许自定义 View。 本文 32. SuperToasts 为其扩展版  
 项目地址：https://github.com/keyboardsurfer/Crouton  
@@ -967,10 +978,10 @@ Demo 地址：http://play.google.com/store/apps/details?id=de.keyboardsurfer.app
 Demo 地址：https://play.google.com/store/apps/details?id=com.haarman.supertooltips  
 
 1. Android ViewBadger  
-为其他 View 添加角标等  
+为其他 View 添加角标（消息圆点）等  
 项目地址：https://github.com/jgilfelt/android-viewbadger  
 Demo 地址：https://github.com/Trinea/TrineaDownload/blob/master/android-viewbadger.apk?raw=true  
-效果图：![Renderings](https://github-camo.global.ssl.fastly.net/a705a3e88c75ae2394943bd7c56f725697616ea8/687474703a2f2f7777772e6a65666667696c66656c742e636f6d2f766965776261646765722f76622d31612e706e67)  
+效果图：![Renderings](http://www.jeffgilfelt.com/viewbadger/vb-1a.png)  
 
 1. SuperToasts  
 更丰富样式的 toast，支持 Button、Progress、Horizontal Progress 样式、支持进入动画、支持撤销及其动画设置  
@@ -1191,7 +1202,10 @@ Activity 切换动画，包括渐变、flip、某个位置进入等等
 效果图：![ViewAnimation](https://github.com/guohuanwen/ViewAniamtion/blob/master/sreenshots/AnimationGif.gif)  
 APP 示例：QQ名片圈圈效果  
 
-
+1. TaiJIView  
+一个太极加载动画，中国风  
+项目地址：https://github.com/guohuanwen/TaiJIView  
+效果图：![TaiJIView](https://github.com/guohuanwen/TaiJIView/blob/master/screenshots/taiji0.gif)  
 
 
 1. android-lockpattern  
@@ -2082,6 +2096,37 @@ Demo 地址： https://github.com/handsomezhou/PinyinSearchLibrary/blob/master/e
 https://github.com/handsomezhou/PinyinSearchLibrary/blob/master/external_res/image/Qwerty_search.png  
 APP 示例： 通讯录应用，微信电话本  
 
+1. PrainView  
+PaintView 是一个画图工具:  
+可直接使用设定按钮来实现已拥有的方法，且拓展性强  
+基础功能：更换颜色、更换橡皮、以及更换橡皮和笔的粗细、清屏、倒入图片  
+特殊功能：保存画笔轨迹帧动画、帧动画导入导出、ReDo和UnDo  
+项目地址：[Paintview](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p1](https://github.com/lfkdsk/JustWeTools/blob/master/picture/gif.gif)  
+        ![p2](https://github.com/lfkdsk/JustWeTools/blob/master/picture/io.gif)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/DrawAPicture.apk)
+原理解析：[PaintView 绘图控件解析](http://www.cnblogs.com/lfk-dsk/p/4768850.html)
+
+1. CodeView
+CodeView代码查看／修改工具: 基于WebView制作的代码编辑器,实现代码高亮，暗色主题  
+项目地址：[CodeView](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p3](https://github.com/lfkdsk/JustWeTools/blob/master/picture/accomplish.png)  
+        ![p4](https://github.com/lfkdsk/JustWeTools/blob/master/picture/edit.png)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/JustWeTools.apk)  
+
+1. ExplorerView
+文件浏览器：继承自ListView，可拓展性强，可进行文件类型分析  
+项目地址：[CodeView](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p5](https://github.com/lfkdsk/JustWeTools/blob/master/picture/explorer1.png)  
+![p6](https://github.com/lfkdsk/JustWeTools/blob/master/picture/explorer2.png)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/JustWeTools.apk)  
+
+1. ReadView  
+小说阅读器，支持文字字体、颜色、背景、进度等多种调整，支持一键设置。  
+项目地址：[ReadView](https://github.com/lfkdsk/JustWeTools)  
+效果图：![p7](https://github.com/lfkdsk/JustWeTools/blob/master/picture/readbook.png)  
+demo地址：[apk地址](https://github.com/lfkdsk/JustWeTools/blob/master/demo/JustWeTools.apk)  
+
 ## 第三部分 优秀项目
 主要介绍那些 Android 还不错的完整项目，目前包含的项目主要依据是项目有意思或项目分层规范比较好。  
 
@@ -2451,6 +2496,11 @@ Android 滚动屏幕自动截图 jar 包，支持纵向、横向滚动截屏拼�
 Android 内存泄露检测工具，集成方便，出现泄露后报告直观  
 项目地址：https://github.com/square/leakcanary  
 效果图：![Renderings](https://github.com/square/leakcanary/blob/master/assets/screenshot.png)  
+
+1. CacheUtilsLibrary  
+将任何Java Object类型的数据序列化后写入缓存文件，将来使用时读取缓存文件并反序列化成对应Java Object的库  
+项目地址：https://github.com/westlinkin/CacheUtilsLibrary  
+
 
 ## 第五部分  
 主要介绍那些乐于分享并且有一些很不错的开源项目的个人和组织。Follow 大神，深挖大神的项目和 following，你会发现很多。  
